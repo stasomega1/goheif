@@ -8,8 +8,8 @@ import (
 	"io"
 	"io/ioutil"
 
-	"github.com/jdeng/goheif/heif"
-	"github.com/jdeng/goheif/libde265"
+	"github.com/stasomega1/goheif/heif"
+	"github.com/stasomega1/goheif/libde265"
 )
 
 // SafeEncoding uses more memory but seems to make
