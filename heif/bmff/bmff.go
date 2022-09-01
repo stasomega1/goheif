@@ -235,7 +235,7 @@ func (r *Reader) ReadAndParseBox(typ BoxType) (Box, error) {
 		return nil, fmt.Errorf("error reading %q box: %v", typ, err)
 	}
 	if box.Type() != typ {
-		return nil, fmt.Errorf("error reading %q box: got box type %q instead", typ, box.Type())
+		//return nil, fmt.Errorf("error reading %q box: got box type %q instead", typ, box.Type())
 	}
 	pbox, err := box.Parse()
 	if err != nil {
